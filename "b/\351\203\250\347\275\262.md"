@@ -77,7 +77,6 @@ sudo apt install graphviz libgraphviz-dev pkg-config -y
 
 10. 进一步操作
 环境准备完成后，可参照 `Implementation/README.md` 中的步骤生成代码切片 (SeVC)、预处理数据并训练模型。
-
 11. 训练模型并查看结果
 --------------------
 完成数据切片生成与预处理后，可执行以下命令训练模型：
@@ -86,4 +85,3 @@ cd Implementation/model
 python3 bgru.py
 ```
 训练结束后结果会保存在 `result/BGRU/BGRU` 文件中，可通过 `cat result/BGRU/BGRU` 查看精确率、召回率等指标。
-
